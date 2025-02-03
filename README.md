@@ -20,3 +20,7 @@ To create a conda environment using the provided `environment.yml` file, follow 
     ```
 
 You are now ready to use the `alignment` environment.
+
+## Note
+
+The files in the `registration` folder are from the [Naumann Lab scopeslip repository](https://github.com/Naumann-Lab/scopeslip).
