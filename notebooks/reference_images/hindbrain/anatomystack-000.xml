@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PVScan version="5.8.64.700" date="9/23/2024 8:51:08 PM" notes="">
+  <SystemIDs SystemID="D573-6623-0B92-4097-B32A-8953-CF6A-8C4A">
+    <SystemID SystemID="4961" Description="Moving Base 2P+" />
+  </SystemIDs>
+  <PVStateShard>
+    <PVStateValue key="activeMode" value="ResonantGalvo" />
+    <PVStateValue key="bitDepth" value="13" />
+    <PVStateValue key="currentScanAmplitude">
+      <IndexedValue index="XAxis" value="-4.095813618" />
+      <IndexedValue index="YAxis" value="2.89758807" />
+    </PVStateValue>
+    <PVStateValue key="currentScanCenter">
+      <IndexedValue index="XAxis" value="-0.00814786095703" />
+      <IndexedValue index="YAxis" value="0.28070384428125" />
+    </PVStateValue>
+    <PVStateValue key="daqGain">
+      <IndexedValue index="0" value="1" description="�1.25V" />
+      <IndexedValue index="1" value="-1" description="�1.25V" />
+    </PVStateValue>
+    <PVStateValue key="dwellTime" value="0.4" />
+    <PVStateValue key="framePeriod" value="0.041682459" />
+    <PVStateValue key="interlacedScanTrackCount" value="0" />
+    <PVStateValue key="laserPower">
+      <IndexedValue index="0" value="244.9951171875" description="Axon 920" />
+      <IndexedValue index="1" value="0" description="Monaco 1035" />
+      <IndexedValue index="2" value="0" description="Doric" />
+      <IndexedValue index="3" value="NaN" description="Axon 1064" />
+    </PVStateValue>
+    <PVStateValue key="linesPerFrame" value="640" />
+    <PVStateValue key="maxVoltage">
+      <IndexedValue index="XAxis" value="-4.17985267095703" />
+      <IndexedValue index="YAxis" value="3.17829191428125" />
+    </PVStateValue>
+    <PVStateValue key="micronsPerPixel">
+      <IndexedValue index="XAxis" value="0.783202792352194" />
+      <IndexedValue index="YAxis" value="0.783202792352194" />
+      <IndexedValue index="ZAxis" value="5" />
+    </PVStateValue>
+    <PVStateValue key="minVoltage">
+      <IndexedValue index="XAxis" value="4.16355694904297" />
+      <IndexedValue index="YAxis" value="-2.61688422571875" />
+    </PVStateValue>
+    <PVStateValue key="objectiveLens" value="20X" />
+    <PVStateValue key="objectiveLensMag" value="20" />
+    <PVStateValue key="objectiveLensNA" value="1" />
+    <PVStateValue key="opticalZoom" value="1" />
+    <PVStateValue key="pixelsPerLine" value="1024" />
+    <PVStateValue key="pmtGain">
+      <IndexedValue index="0" value="0" description="PMT 1 HV" />
+      <IndexedValue index="1" value="600" description="PMT 2 HV" />
+    </PVStateValue>
+    <PVStateValue key="positionCurrent">
+      <SubindexedValues index="XAxis">
+        <SubindexedValue subindex="0" value="-163.723" />
+      </SubindexedValues>
+      <SubindexedValues index="YAxis">
+        <SubindexedValue subindex="0" value="1535.755" />
+      </SubindexedValues>
+      <SubindexedValues index="ZAxis">
+        <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+        <SubindexedValue subindex="1" value="79.9999999999998" description="Optotune ETL 10-30" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="preampFilter" value="NoFilter" description="None" />
+    <PVStateValue key="preampOffset">
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="0" value="0" description="Ch1" />
+        <SubindexedValue subindex="1" value="0" description="Ch2" />
+        <SubindexedValue subindex="2" value="0" description="Ch3" />
+        <SubindexedValue subindex="3" value="0" description="Ch4" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="rastersPerFrame" value="16" />
+    <PVStateValue key="rotation" value="0" />
+    <PVStateValue key="samplesPerPixel" value="1" />
+    <PVStateValue key="scanLinePeriod" value="6.3186E-05" />
+    <PVStateValue key="useInterlacedScanPattern" value="False" />
+    <PVStateValue key="xYStageGridIndex" value="-1" />
+    <PVStateValue key="xYStageGridXIndex" value="-1" />
+    <PVStateValue key="xYStageGridYIndex" value="-1" />
+    <PVStateValue key="yAspectExpansion" value="1" />
+    <PVStateValue key="zDevice" value="1" />
+  </PVStateShard>
+  <Sequence type="TSeries ZSeries Element" cycle="1" time="20:51:08.0561052" bidirectionalZ="False" xYStageGridDefined="False" xYStageGridNumXPositions="0" xYStageGridNumYPositions="0" xYStageGridOverlapPercentage="10" xYStageGridXOverlap="10" xYStageGridYOverlap="10">
+    <PVStateShard />
+    <Frame relativeTime="0" absoluteTime="1.93600000000151" index="1" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="1" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-60.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="0.74692416" absoluteTime="2.68292416000151" index="2" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="2" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-55.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="1.49384832" absoluteTime="3.42984832000151" index="3" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="3" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-50.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="2.24077248" absoluteTime="4.17677248000151" index="4" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="4" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-45.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="2.98769664" absoluteTime="4.92369664000151" index="5" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="5" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-40.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="3.7346208" absoluteTime="5.67062080000151" index="6" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="6" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-35.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="4.48154496" absoluteTime="6.41754496000151" index="7" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="7" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-30.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="5.22846912" absoluteTime="7.16446912000151" index="8" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="8" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-25.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="5.97539328" absoluteTime="7.91139328000151" index="9" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="9" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-20.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="6.72231744" absoluteTime="8.65831744000151" index="10" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="10" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-15.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="7.4692416" absoluteTime="9.40524160000151" index="11" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="11" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-10.0000000000003" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="8.21616576" absoluteTime="10.1521657600015" index="12" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="12" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-5.00000000000026" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="8.96308992" absoluteTime="10.8990899200015" index="13" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="13" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="-2.55795384873636E-13" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="9.71001408" absoluteTime="11.6460140800015" index="14" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="14" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="4.99999999999974" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="10.45693824" absoluteTime="12.3929382400015" index="15" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="15" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="9.99999999999974" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="11.2038624" absoluteTime="13.1398624000015" index="16" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="16" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="14.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="11.95078656" absoluteTime="13.8867865600015" index="17" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="17" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="19.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="12.69771072" absoluteTime="14.6337107200015" index="18" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="18" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="24.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="13.44463488" absoluteTime="15.3806348800015" index="19" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="19" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="29.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="14.19155904" absoluteTime="16.1275590400015" index="20" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="20" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="34.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="14.9384832" absoluteTime="16.8744832000015" index="21" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="21" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="39.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="15.68540736" absoluteTime="17.6214073600015" index="22" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="22" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="44.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="16.43233152" absoluteTime="18.3683315200015" index="23" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="23" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="49.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="17.17925568" absoluteTime="19.1152556800015" index="24" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="24" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="54.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="17.92617984" absoluteTime="19.8621798400015" index="25" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="25" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="59.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="18.673104" absoluteTime="20.6091040000015" index="26" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="26" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="64.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="19.42002816" absoluteTime="21.3560281600015" index="27" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="27" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="69.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="20.16695232" absoluteTime="22.1029523200015" index="28" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="28" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="74.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="20.91387648" absoluteTime="22.8498764800015" index="29" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="29" filename="anatomystack-000_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.04668276" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-163.723" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="1535.755" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1767.725" description="Z Focus" />
+            <SubindexedValue subindex="1" value="79.9999999999997" description="Optotune ETL 10-30" />
+          </SubindexedValues>
+        </PVStateValue>
+        <PVStateValue key="scanLinePeriod" value="6.3154E-05" />
+      </PVStateShard>
+    </Frame>
+  </Sequence>
+</PVScan>
