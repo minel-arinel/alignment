@@ -1,0 +1,1 @@
+Point	0	; InputIndex = [ 487 689 ]	; InputPoint = [ 487.000000 689.000000 ]	; OutputIndexFixed = [ 501 624 ]	; OutputPoint = [ 501.221686 623.872766 ]	; Deformation = [ 14.221685 -65.127235 ]
