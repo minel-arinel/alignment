@@ -1,0 +1,17 @@
+name: fc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # numpy>=2 is REQUIRED to unpickle the trace arrays in temporal_pack_compact_clean.h5
+  - numpy>=2
+  - scipy
+  - pandas
+  - pytables            # pandas.read_hdf backend for the .h5 pack
+  - networkx            # graph metrics (modularity, efficiency, participation, NBS)
+  - statsmodels         # mixed-model difference-in-differences + Granger causality
+  - scikit-learn        # FC-state clustering (KMeans)
+  - matplotlib
+  - seaborn
+  - tifffile            # receptor-anchoring map load (Sec 16)
+  - ipykernel           # so the env shows up as a Jupyter kernel

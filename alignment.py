@@ -125,19 +125,71 @@ def load_memmap(filename, mode):
     if Path(filename).suffix != '.mmap':
         logger.error(f"Unknown extension for file {filename}")
         raise ValueError(f'Unknown file extension for file {filename} (should be .mmap)')
+
+    # macOS may create AppleDouble sidecar files prefixed with "._".
+    # Those are metadata files, not actual CaImAn memmaps.
+    base_name = Path(filename).name
+    if base_name.startswith("._"):
+        candidate = str(Path(filename).with_name(base_name[2:]))
+        if os.path.exists(candidate):
+            logger.warning(
+                "Received AppleDouble sidecar memmap %s; using corresponding file %s instead.",
+                filename,
+                candidate,
+            )
+            filename = candidate
+        else:
+            raise ValueError(
+                f"Path points to macOS sidecar file, not a real memmap: {filename}. "
+                f"Expected companion file: {candidate}"
+            )
     
     decoded_fn = decode_mmap_filename_dict(filename)
-    d1		= decoded_fn['d1']
-    d2		= decoded_fn['d2']
-    d3		= decoded_fn['d3']
-    T		= decoded_fn['T']
-    order  	= decoded_fn['order']
+    d1     = decoded_fn['d1']
+    d2     = decoded_fn['d2']
+    d3     = decoded_fn['d3']
+    T      = decoded_fn['T']
+    order  = decoded_fn['order']
 
     #d1, d2, d3, T, order = int(fpart[-9]), int(fpart[-7]), int(fpart[-5]), int(fpart[-1]), fpart[-3]
 
     filename = fn_relocated(filename)
-    Yr = np.memmap(filename, mode=mode, shape=prepare_shape((d1 * d2 * d3, T)), 
-                   dtype=np.float32, order=order)
+    n_pixels = d1 * d2 * d3
+    dtype_size = np.dtype(np.float32).itemsize
+    file_size = os.path.getsize(filename)
+    frame_bytes = n_pixels * dtype_size
+
+    if frame_bytes <= 0:
+        raise ValueError(
+            f"Invalid memmap dimensions parsed from filename {filename}: "
+            f"d1={d1}, d2={d2}, d3={d3}"
+        )
+
+    if file_size % frame_bytes != 0:
+        raise ValueError(
+            f"Memmap file size is incompatible with parsed dimensions for {filename}. "
+            f"file_size={file_size} bytes, expected multiple of frame_bytes={frame_bytes} "
+            f"(d1={d1}, d2={d2}, d3={d3}, dtype=float32)."
+        )
+
+    inferred_T = file_size // frame_bytes
+    if inferred_T != T:
+        logger.warning(
+            "T parsed from filename (%s) does not match file size-inferred T (%s) for %s. "
+            "Using inferred T.",
+            T,
+            inferred_T,
+            filename,
+        )
+        T = int(inferred_T)
+
+    Yr = np.memmap(
+        filename,
+        mode=mode,
+        shape=prepare_shape((n_pixels, T)),
+        dtype=np.float32,
+        order=order,
+    )
     if d3 == 1:
         return (Yr, (d1, d2), T)
     else:
